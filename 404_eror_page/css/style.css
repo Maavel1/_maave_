@@ -1,0 +1,28 @@
+
+@font-face {
+    font-family:AireExterior ;
+    src: url(/fonts/AireExterior.ttf);
+}
+
+body {
+    background: #141C24;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.blocK_error {
+    font-family: AireExterior;
+    color: #fff;
+    font-size: 40px;
+    line-height: 20px;
+    margin-top: 400px;
+    text-align: center;
+    text-shadow: 0 0 5px white,0 0 10px #00FFFF,0 0 15px #7FFF00,0 0 20px white;
+}
+
+.blocK_error img{
+    padding-right: 30px;
+}
