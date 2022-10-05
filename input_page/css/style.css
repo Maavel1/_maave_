@@ -77,6 +77,16 @@ form {
     }
 }
 
+
+@media (max-width:420px) {
+    .input_email {
+        width: 270px;
+    }
+}
+
+
+
+
 .input_password {
     margin-bottom: 30px;
     outline: none;
@@ -96,6 +106,12 @@ form {
 @media (max-width:805px) {
     .input_password {
         width: 320px;
+    }
+}
+
+@media (max-width:420px) {
+    .input_password {
+        width: 270px;
     }
 }
 

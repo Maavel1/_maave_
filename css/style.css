@@ -216,6 +216,12 @@ nav {
     height: 880px;
  }
 
+ @media (max-width:550px) {
+    .block_works{
+        height: 710px;
+    }
+ }
+
  .block_img  {
     position: absolute;                                                                                                                                                           ;
  }
@@ -314,6 +320,13 @@ nav {
     border-bottom: 0.5px solid  rgba(255, 255, 255, 0.2);
 }
 
+@media (max-width:500px) {
+    .description_text{
+        font-size: 17px;
+    }
+ }
+
+
 .description_text_2 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -325,6 +338,14 @@ nav {
     margin: 0;
     padding-top: 22px;
 }
+
+
+@media (max-width:500px) {
+    .description_text_2{
+        font-size: 17px;
+    }
+ }
+
 
 .download_link {
     font-family: 'Roboto', sans-serif;
@@ -506,6 +527,16 @@ nav {
     margin:0;
 }
 
+
+@media (max-width:439px) {
+    .figure_text_start {
+     margin-top: 25px;
+       
+    }
+ }
+
+
+
 .figure_text_start:not(:last-child)::before {
     content:'';
     position: absolute;
@@ -598,6 +629,14 @@ nav {
     margin-top: 15px;
 }
 
+@media (max-width:550px) {
+    .title_sebcriptions{
+        font-size: 35px;
+        
+    }
+ }
+
+
 .block_cards {
     display: flex;
     justify-content: space-between;
@@ -645,6 +684,12 @@ nav {
  @media (max-width:429px) {
     .block_cards{
         padding-left:6%;
+    }
+ }
+
+ @media (max-width:407px) {
+    .block_cards{
+        padding-left:2%;
     }
  }
 
@@ -840,6 +885,7 @@ footer {
 
 @media (max-width:560px) {
     .img_Logo_footer img {
+        padding-left: 7px;
         width: 150px;
     }
 }
