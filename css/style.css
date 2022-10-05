@@ -705,7 +705,29 @@ nav {
     transition: all 0.5s ease-out;
 }
 
-@media (max-width:859px) {
+
+@media (max-width:1264px) {
+    .cards_1, .cards_2, .cards_3{
+       width: 330px;
+       
+    }
+ }
+
+ @media (max-width:1033px) {
+    .cards_1, .cards_2, .cards_3{
+       width: 300px;
+       
+    }
+ }
+
+ @media (max-width:953px) {
+    .cards_1, .cards_2, .cards_3{
+       width: 370px;
+       
+    }
+ }
+
+ @media (max-width:859px) {
     .cards_1, .cards_2, .cards_3{
        margin-top: 30px;
        
@@ -718,6 +740,14 @@ nav {
         max-width: 350px;
     }
  }
+
+ @media (max-width:470px) {
+    .cards_1, .cards_2, .cards_3{
+       max-width: 330px;
+       height: 551px;
+    }
+ }
+
 
 
 .cards_1:hover,.cards_2:hover,.cards_3:hover {
