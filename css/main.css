@@ -913,6 +913,19 @@ body::-webkit-scrollbar {
     opacity: 0.3;
 }
 
+.icon-facebook-1, .icon-instagram,.icon-vk,.icon-telegram {
+    text-decoration: none;
+    color: #181A36;
+    font-size: 30px;
+}
+
+.icon-facebook-1:hover, .icon-instagram:hover, .icon-vk:hover, .icon-telegram:hover{
+    color: #07DBB4;
+    transition: color 0.4s ease;
+}
+
+
+
 
 
 
