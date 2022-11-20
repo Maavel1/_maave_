@@ -1,8 +1,10 @@
-let menuBtn = document.querySelector('.menu_btn');
-let menu = document.querySelector('.menu');
-let body = document.querySelector('body')
-menuBtn.addEventListener('click', function(){
-	menuBtn.classList.toggle('active');
-	menu.classList.toggle('active');
-    body.classList.toggle('active')
+$('.multiple-items').slick({
+  infinite: true,
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  prevArrow:' <span class="priv_arrow_right"><img src="img/reviews/ARROW RIGHT.png" alt=""></span>',
+  nextArrow:'<span class="priv_arrow"><img src="img/reviews/ARROW LEFT.png" alt=""></span>',
 });
+
