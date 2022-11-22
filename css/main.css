@@ -699,9 +699,8 @@ body::-webkit-scrollbar {
 
 /* REVIEWS  */
 
-.reviews {
-    margin-bottom: 100px;
-}
+
+
 
 .title_reviews {
     font-family: 'SF Pro Display';
@@ -714,7 +713,7 @@ body::-webkit-scrollbar {
     display: flex;
     justify-content: space-around;
     width: 540px;
-    height: 200px;
+    height: 294px;
     background: #121326;
     border-radius: 5px;
     padding: 32px 22px 34px 22px;
@@ -790,6 +789,7 @@ body::-webkit-scrollbar {
     border-radius: 10px;
     padding: 85px 0 65px 26px;
     box-sizing: border-box;
+    margin-top: 100px;
 }
 
 .title_creat_tg_2 {
